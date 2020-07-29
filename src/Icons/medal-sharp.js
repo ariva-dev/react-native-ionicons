@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Path, Circle } from "react-native-svg";
 
 function SvgMedalSharp(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Path d="M80 32L16 160h289.11l80.22-128H80z" />

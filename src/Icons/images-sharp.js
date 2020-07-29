@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Ellipse, Path } from "react-native-svg";
 
 function SvgImagesSharp(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Ellipse cx={373.14} cy={219.33} rx={46.29} ry={46} fill={props.fill} />

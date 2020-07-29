@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Path, Circle } from "react-native-svg";
 
 function SvgLogoAndroid(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Path d="M436 176a28 28 0 00-28 28v128a28 28 0 0056 0V204a28 28 0 00-28-28zM76 176a28 28 0 00-28 28v128a28 28 0 0056 0V204a28 28 0 00-28-28zM124 176v192a32 32 0 0032 32h20v68a28 28 0 0056 0v-68h48v68a28 28 0 0056 0v-68h20a32 32 0 0032-32V176z" />

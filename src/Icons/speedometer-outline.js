@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 
 function SvgSpeedometerOutline(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Path d="M326.1 231.9l-47.5 75.5a31 31 0 01-7 7 30.11 30.11 0 01-35-49l75.5-47.5a10.23 10.23 0 0111.7 0 10.06 10.06 0 012.3 14z" />

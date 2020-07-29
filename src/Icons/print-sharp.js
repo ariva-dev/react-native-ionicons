@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Path, Rect } from "react-native-svg";
 
 function SvgPrintSharp(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Path d="M400 96V56a8 8 0 00-8-8H120a8 8 0 00-8 8v40" />

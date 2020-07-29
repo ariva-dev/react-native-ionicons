@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 
 function SvgBasketSharp(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Path d="M339.2 217.6L256 106.67 172.8 217.6l-25.6-19.2 96-128a16 16 0 0125.6 0l96 128z" />

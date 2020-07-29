@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Rect, Path } from "react-native-svg";
 
 function SvgNewspaperSharp(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Rect x={96} y={112} width={96} height={96} rx={16} ry={16} fill={props.fill} />

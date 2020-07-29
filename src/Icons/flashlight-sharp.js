@@ -2,7 +2,6 @@ import * as React from "react";
 import Svg, { Path, Ellipse } from "react-native-svg";
 
 function SvgFlashlightSharp(props) { 
-  const strokeWidth = props.strokeWidth ? props.strokeWidth : 32
   return (
     <Svg width="1em" height="1em" viewBox="0 0 512 512" {...props}>
       <Path d="M330 16l-42.68 42.7L453.3 224.68 496 182 330 16z" />
